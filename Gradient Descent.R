@@ -1,6 +1,6 @@
 # 1. Gradient Descent Algorithm
 
-dat = read.csv("MLR.csv", header = F)
+dat = read.csv("Data/MLR.csv", header = F)
 true_beta = as.matrix(read.csv("True_Beta.csv", header = F),nrow = 30,ncol =1)
 
 X = as.matrix(dat[,1:30])
